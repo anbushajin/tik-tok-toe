@@ -1,0 +1,25 @@
+{% extends "home.html" %}
+
+{% block main %}
+<h1 style="color: green;">{{A.a}} </h1>
+<div>
+    <table border="1">
+        <tr>
+            <th><a href="/validate/A1"><button class="button" onclick="this.disabled=true">{{A.A1}}</button></a></th>
+            <th><a href="/validate/A2"><button class="button" onclick="this.disabled=true">{{A.A2}}</button></a></th>
+            <th><a href="/validate/A3"><button class="button" onclick="this.disabled=true">{{A.A3}}</button></a></th>
+        </tr>
+        <tr>
+            <th><a href="/validate/A4"><button class="button" onclick="this.disabled=true">{{A.A4}}</button></a></th>
+            <th><a href="/validate/A5"><button class="button" onclick="this.disabled=true">{{A.A5}}</button></a></th>
+            <th><a href="/validate/A6"><button class="button" onclick="this.disabled=true">{{A.A6}}</button></a></th>
+        </tr>
+        <tr>
+            <th><a href="/validate/A7"><button class="button" onclick="this.disabled=true">{{A.A7}}</button></a></th>
+            <th><a href="/validate/A8"><button class="button" onclick="this.disabled=true">{{A.A8}}</button></a></th>
+            <th><a href="/validate/A9"><button class="button" onclick="this.disabled=true">{{A.A9}}</button></a>
+            </th>
+        </tr>
+    </table>
+</div>
+{% endblock %}
